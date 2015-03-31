@@ -1,6 +1,6 @@
 Welcome to the Magento-Ajax-resetPassword-Module wiki!
 
-<h1>this module we test and working perfect on our website. if anyone has any problem please send email on following address</h1>
+this module we test and working perfect on our website. if anyone has any problem please send email on following address
 
 hi guys today i create new module which help customer to reset password.
 
