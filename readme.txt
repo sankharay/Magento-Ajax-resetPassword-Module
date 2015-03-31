@@ -1,6 +1,8 @@
 Welcome to the Magento-Ajax-resetPassword-Module wiki!
 
-ho guys today i create new module which help customer to reset password.
+<h1>this module we test and working perfect on our website. if anyone has any problem please send email on following address</h1>
+
+hi guys today i create new module which help customer to reset password.
 
 WHY I BUILT THIS MODULE : i was working with Magento enterprise 1.1.13 which support to send password in email.so once user is on forget password after filling email address once user click on enter then magento reset user password and send to customer email address.
 
