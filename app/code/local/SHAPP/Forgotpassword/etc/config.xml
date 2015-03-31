@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SHAPP_Forgotpassword>
+            <version>1.8.0.2</version>
+        </SHAPP_Forgotpassword>
+    </modules>
+    <admin>
+        <routers>
+            <shapp_forgotpassword>
+                <use>admin</use>
+                  <args>
+                    <module>SHAPP_Forgotpassword</module>
+                    <frontName>shapp_forgotpassword</frontName>
+                </args>
+            </shapp_forgotpassword>
+        </routers>
+    </admin>
+    <global>
+        <helpers>
+            <forgotpassword>
+                <class>SHAPP_Forgotpassword_Helper</class>
+            </forgotpassword>
+        </helpers>
+        <frontend>
+            <layout>
+                <updates>
+                    <resetpassword>
+                        <file>SHAPP/forgetpassword.xml</file>
+                    </resetpassword>
+                </updates>
+            </layout>
+        </frontend>
+    </global>
+</config>
